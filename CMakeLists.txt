@@ -10,14 +10,13 @@ project(wheelchair_msgs)
 find_package(catkin REQUIRED COMPONENTS
   message_generation
   message_runtime
-  gazebo_ros
   roscpp
   std_msgs
 )
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
-find_package(gazebo REQUIRED)
+# find_package(gazebo REQUIRED)
 
 
 ## Uncomment this if the package has a setup.py. This macro ensures
@@ -107,7 +106,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES wheelchair_msgs
-#  CATKIN_DEPENDS message_generation message_runtime ros_gazebo roscpp std_msgs
+   CATKIN_DEPENDS message_generation message_runtime roscpp std_msgs
 #  DEPENDS system_lib
 )
 
@@ -117,7 +116,7 @@ catkin_package(
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
-include_directories(
+# include_directories(
 # include
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
