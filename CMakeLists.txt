@@ -53,6 +53,7 @@ add_message_files(
   FILES
   wheelVels.msg
   mobilenet.msg
+  object_transforms.msg
 )
 
 ## Generate services in the 'srv' folder
