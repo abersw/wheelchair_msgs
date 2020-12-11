@@ -3,11 +3,11 @@
 Header header
 string[] object_name
 
-float64[] pointX
-float64[] pointY
-float64[] pointZ
+float64[] point_x
+float64[] point_y
+float64[] point_z
 
-float64[] quatX
-float64[] quatY
-float64[] quatZ
-float64[] quatW
+float64[] quat_x
+float64[] quat_y
+float64[] quat_z
+float64[] quat_w
