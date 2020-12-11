@@ -1,6 +1,7 @@
 # Object location data from map
 
 Header header
+int16[] id
 string[] object_name
 
 float64[] point_x
