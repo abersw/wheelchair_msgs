@@ -8,7 +8,6 @@ float64[] point_x
 float64[] point_y
 float64[] point_z
 
-float64[] quat_x
-float64[] quat_y
-float64[] quat_z
-float64[] quat_w
+float64[] rotation_r
+float64[] rotation_p
+float64[] rotation_y
