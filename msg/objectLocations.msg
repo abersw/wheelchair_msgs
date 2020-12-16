@@ -11,3 +11,5 @@ float64[] point_z
 float64[] rotation_r
 float64[] rotation_p
 float64[] rotation_y
+
+int16 totalObjects
