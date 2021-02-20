@@ -4,6 +4,7 @@ Header header
 int16[] id
 string[] object_name
 float64[] object_confidence
+string[] room
 
 float64[] point_x
 float64[] point_y
