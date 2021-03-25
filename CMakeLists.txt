@@ -55,6 +55,7 @@ add_message_files(
   mobilenet.msg
   foundObjects.msg
   objectLocations.msg
+  roomToObjects.msg
 )
 
 ## Generate services in the 'srv' folder
