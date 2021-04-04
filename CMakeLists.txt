@@ -56,6 +56,7 @@ add_message_files(
   foundObjects.msg
   objectLocations.msg
   roomToObjects.msg
+  roomLocations.msg
 )
 
 ## Generate services in the 'srv' folder
