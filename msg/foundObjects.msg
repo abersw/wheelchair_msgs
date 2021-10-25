@@ -3,7 +3,7 @@
 Header header
 int16[] id
 string[] object_name
-float64[] object_confidence
+float32[] object_confidence
 
 float64[] point_x
 float64[] point_y
