@@ -3,7 +3,7 @@
 Header header
 int16[] object_id #uid of object
 string[] object_name #name of object
-float64[] object_confidence #dnn confidence of uid object
+float32[] object_confidence #dnn confidence of uid object
 int16[] object_detected #times uid object was detected
 
 float64[] object_weighting #uid object weighting
