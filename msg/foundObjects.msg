@@ -1,6 +1,8 @@
-# Object location data from map
+# Local object location data from map
 
 Header header
+int32 camera_timestamp
+
 int16[] id
 string[] object_name
 float32[] object_confidence
