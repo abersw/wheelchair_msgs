@@ -1,7 +1,7 @@
 # Object Detection custom message type
 
 Header header
-int32 camera_timestamp
+time camera_timestamp
 
 string[] object_name
 float32[] object_confidence

@@ -1,7 +1,7 @@
 # Local object location data from map
 
 Header header
-int32 camera_timestamp
+time camera_timestamp
 
 int16[] id
 string[] object_name
