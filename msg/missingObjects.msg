@@ -5,6 +5,6 @@ time camera_timestamp
 
 int16[] id
 string[] object_name
-int16[] totalCorrespondingPoints
+int64[] totalCorrespondingPoints
 
 int16 totalObjects
