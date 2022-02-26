@@ -54,6 +54,7 @@ add_message_files(
   wheelVels.msg
   mobilenet.msg
   foundObjects.msg
+  missingObjects.msg
   objectLocations.msg
   roomToObjects.msg
   roomLocations.msg
