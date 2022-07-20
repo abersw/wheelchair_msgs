@@ -59,6 +59,7 @@ add_message_files(
   roomToObjects.msg
   roomLocations.msg
   objectContext.msg
+  trackingContext.msg
 )
 
 ## Generate services in the 'srv' folder
